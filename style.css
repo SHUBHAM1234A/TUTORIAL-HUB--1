@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {text-align: center;}
+
+h1 {
+    color: #143980;
+    font-size: 55px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    text-shadow: 2px 2px #535353;
+}
+
+h2 {font-family: 'Balsamiq Sans', cursive;}
+
+body {background-color: rgb(226, 226, 226);}
+
+p {
+    font-family: comic sans ms;
+    font-weight: italic;
+}
+
+a {font-family: 'Balsamiq Sans', cursive;}
+
+ol, ul {font-family: comic sans ms;}
+
+li {text-align: left;}
+
+::-webkit-scrollbar {width: 20px;}
+
+::-webkit-scrollbar-track {background-color: transparent;}
+
+::-webkit-scrollbar-thumb {
+    background-color: #7a7a7a;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555555;
+}
